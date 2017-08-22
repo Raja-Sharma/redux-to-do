@@ -1,7 +1,13 @@
 import React from 'react'
+import List from '../containers/List'
 
 const App = () => {
-  return <h1>This is from App.js</h1>
+  return (
+    <div>
+      <h1>To Do List</h1>
+      <List />
+    </div>
+  )
 }
 
 export default App
