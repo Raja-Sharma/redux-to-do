@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 import { connect } from 'react-redux'
-import Item from '../components/Item'
+import Item from './Item'
 
 class List extends Component {
 
