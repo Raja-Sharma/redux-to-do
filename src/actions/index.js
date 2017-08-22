@@ -4,3 +4,10 @@ export function add(item) {
     payload: item
   }
 }
+
+export function remove(item) {
+  return {
+    type: 'REMOVE',
+    payload: item
+  }
+}
